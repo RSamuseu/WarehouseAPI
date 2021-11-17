@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "smnp8XH01gw8KNPNoXM4uXQKKfADcNd+GISzBHmrFpt+kODgQroqX9iE57w5yi1l9htxKLWNL3+PRihV2FUCYQ==",
+  "dgSpecHash": "O8qfFXHvBHg5FbEChHxhKyD/u5XKOpJyCJ10ujHrTKvLe8NkjpAFvLtYZsAw8+9ohAzUyLeqXkzGtBHHQ64L6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\r.samuseu\\Documents\\Bench\\Cognizant test\\Warehouse\\backend\\WebApplication1\\WebApplication1.Web\\WebApplication1.Web.csproj",
+  "projectFilePath": "C:\\Users\\r.samuseu\\Documents\\Bench\\Cognizant test\\Warehouse\\backend\\warehouseapi\\WebApplication1\\WebApplication1.Web\\Warehouse.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
