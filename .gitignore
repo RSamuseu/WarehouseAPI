@@ -47,4 +47,11 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+*.suo
 
+bin/
+obj/
+v16/
+.vs/
+*.cache
+WebApplication1/
