@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Web", "WebApplica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseAPI.DataAcess", "WarehouseAPI.DataAcess\WarehouseAPI.DataAcess.csproj", "{A658DDAF-5216-4B85-84A2-12E6DF67949F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseAPI.Business", "WarehouseAPI.Business\WarehouseAPI.Business.csproj", "{DE640868-6062-4181-B629-F4FD33889FF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A658DDAF-5216-4B85-84A2-12E6DF67949F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A658DDAF-5216-4B85-84A2-12E6DF67949F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A658DDAF-5216-4B85-84A2-12E6DF67949F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE640868-6062-4181-B629-F4FD33889FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE640868-6062-4181-B629-F4FD33889FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE640868-6062-4181-B629-F4FD33889FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE640868-6062-4181-B629-F4FD33889FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
