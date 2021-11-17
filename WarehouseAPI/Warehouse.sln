@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseAPI.DataAcess", "WarehouseAPI.DataAcess\WarehouseAPI.DataAcess.csproj", "{A658DDAF-5216-4B85-84A2-12E6DF67949F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseAPI.DataAccess", "WarehouseAPI.DataAcess\WarehouseAPI.DataAccess.csproj", "{A658DDAF-5216-4B85-84A2-12E6DF67949F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseAPI.Business", "WarehouseAPI.Business\WarehouseAPI.Business.csproj", "{DE640868-6062-4181-B629-F4FD33889FF9}"
 EndProject
