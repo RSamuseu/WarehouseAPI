@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\r.samuseu\\Documents\\Bench\\Cognizant test\\Warehouse\\backend\\warehouseapi\\WebApplication1\\WebApplication1.Web\\Warehouse.Web.csproj",
-      "projectName": "Warehouse.Web",
-      "projectPath": "C:\\Users\\r.samuseu\\Documents\\Bench\\Cognizant test\\Warehouse\\backend\\warehouseapi\\WebApplication1\\WebApplication1.Web\\Warehouse.Web.csproj",
+      "projectUniqueName": "C:\\Users\\r.samuseu\\Documents\\Bench\\Cognizant test\\Warehouse\\backend\\warehouseapi\\WebApplication1\\WarehouseAPI.Business\\WarehouseAPI.Business.csproj",
+      "projectName": "WarehouseAPI.Business",
+      "projectPath": "C:\\Users\\r.samuseu\\Documents\\Bench\\Cognizant test\\Warehouse\\backend\\warehouseapi\\WebApplication1\\WarehouseAPI.Business\\WarehouseAPI.Business.csproj",
       "packagesPath": "C:\\Users\\r.samuseu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\r.samuseu\\Documents\\Bench\\Cognizant test\\Warehouse\\backend\\warehouseapi\\WebApplication1\\WebApplication1.Web\\obj\\",
+      "outputPath": "C:\\Users\\r.samuseu\\Documents\\Bench\\Cognizant test\\Warehouse\\backend\\warehouseapi\\WebApplication1\\WarehouseAPI.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\r.samuseu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,9 +56,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
