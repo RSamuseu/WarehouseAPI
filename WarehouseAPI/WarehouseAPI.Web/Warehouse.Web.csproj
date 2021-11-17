@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="Configure\" />
+    <Folder Include="ViewModels\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
