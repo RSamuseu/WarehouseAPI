@@ -53,5 +53,6 @@ bin/
 obj/
 v16/
 .vs/
+*.user
 *.cache
 WebApplication1/

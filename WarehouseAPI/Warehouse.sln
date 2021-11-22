@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseAPI.DataAccess", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseAPI.Business", "WarehouseAPI.Business\WarehouseAPI.Business.csproj", "{DE640868-6062-4181-B629-F4FD33889FF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Web", "WarehouseAPI.Web\Warehouse.Web.csproj", "{E5D9AFFC-7595-4A70-BB94-7F026B918800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseAPI.Web", "WarehouseAPI.Web\WarehouseAPI.Web.csproj", "{E5D9AFFC-7595-4A70-BB94-7F026B918800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
