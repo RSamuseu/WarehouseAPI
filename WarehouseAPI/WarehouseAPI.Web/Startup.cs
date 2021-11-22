@@ -5,21 +5,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using WarehouseAPI.DataAccess.Configure;
-using WarehouseAPI.DataAccess.Interfaces;
-using WarehouseAPI.DataAccess.Repositories;
-using WarehouseAPI.DataAccess.Entities;
-using WarehouseAPI.DataAcess.Entities;
 using WarehouseAPI.DataAccess.Initializer;
-using WarehouseAPI.DataAcess.Configure;
 using AutoMapper;
 using WarehouseAPI.Business;
 using WarehouseAPI.Web.Configure;
 using WarehouseAPI.Web.AutoMapper;
+using WarehouseAPI.DataAccess.Configure.DbSettings;
+using WarehouseAPI.DataAcess.Configure.Dependencies;
 
 namespace WarehouseAPI.Web
 {
