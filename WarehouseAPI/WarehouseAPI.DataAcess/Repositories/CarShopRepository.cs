@@ -10,22 +10,22 @@ namespace WarehouseAPI.DataAccess.Repositories
 {
     public class CarShopRepository : IRepository<Warehouse>
     {
-        private readonly IMongoCollection<Warehouse> _cars;
+        private readonly IMongoCollection<Warehouse> _warehouses;
 
         public CarShopRepository(IDBSettings settings)
         {
             var client = new MongoClient(settings.ConnectionString);
             var database = client.GetDatabase(settings.DatabaseName);
+            _warehouses = database.GetCollection<Warehouse>("Warehouse");
 
-            _cars = database.GetCollection<Warehouse>("Warehouse");
-            var t = DataInitializer.DataList();
-            _cars.InsertManyAsync(t);
+            //Initial database objects from warehouse.json
+            var warehouses = DataInitializer.DataList();
+            _warehouses.InsertManyAsync(warehouses);
         }
 
         public async Task<List<Warehouse>> GetAll()
         {
-            var tt = await _cars.Find(car => true).ToListAsync();
-            return await _cars.Find(car => true).ToListAsync();
+            return await _warehouses.Find(car => true).ToListAsync();
         }
     }
 }
