@@ -1,12 +1,11 @@
 ﻿using System.Collections.Generic;
-using WarehouseAPI.DataAccess.Entities;
 
 namespace WarehouseAPI.DataAcess.Entities
 {
-    public class Car : BaseEntity
+    public class Car
     {
         public string Location { get; set; }
 
-        public virtual List<Vehicle> Vehicles { get; set; }
+        public List<Vehicle> Vehicles { get; set; }
     }
 }

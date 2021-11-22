@@ -1,7 +1,10 @@
-﻿namespace WarehouseAPI.DataAccess.Entities
+﻿using MongoDB.Bson.Serialization.Attributes;
+
+namespace WarehouseAPI.DataAccess.Entities
 {
     public class BaseEntity
     {
-        public long Id { get; set; }
+        [BsonId]
+        public string _Id { get; set; }
     }
 }
